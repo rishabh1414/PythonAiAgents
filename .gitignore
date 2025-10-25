@@ -1,0 +1,50 @@
+# --- Python Virtual Environment ---
+# This is the most important one for your project
+venv/
+
+# --- Python Cache & Compiled Files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Python Distribution & Packaging ---
+build/
+dist/
+downloads/
+eggs/
+*.egg-info/
+*.egg
+*.whl
+
+# --- Secrets & Local Configuration ---
+# NEVER commit your environment variables or secrets
+.env
+.env.*
+!.env.example
+
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- IDE & Editor Configuration ---
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# --- Log Files ---
+*.log
+logs/
